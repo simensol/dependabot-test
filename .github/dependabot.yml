@@ -5,6 +5,8 @@ updates:
     - package-ecosystem: "npm"
       directory: "/test1"
       open-pull-requests-limit: 1
+      schedule:
+          interval: "monthly"
       allow:
           - dependency-type: "all"
       commit-message:
@@ -14,6 +16,8 @@ updates:
     - package-ecosystem: "npm"
       directory: "/test2/dir1"
       open-pull-requests-limit: 1
+      schedule:
+          interval: "monthly"
       allow:
           - dependency-type: "all"
       commit-message:
@@ -23,6 +27,8 @@ updates:
     - package-ecosystem: "npm"
       directory: "/test3/dir1/dir2"
       open-pull-requests-limit: 1
+      schedule:
+          interval: "monthly"
       allow:
           - dependency-type: "all"
       commit-message:
