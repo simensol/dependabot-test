@@ -5,10 +5,6 @@ updates:
     - package-ecosystem: "npm"
       directory: "/test1"
       open-pull-requests-limit: 1
-      schedule:
-          interval: "daily"
-          time: "05:00"
-          timezone: "Europe/Oslo"
       allow:
           - dependency-type: "all"
       commit-message:
@@ -18,10 +14,6 @@ updates:
     - package-ecosystem: "npm"
       directory: "/test2/dir1"
       open-pull-requests-limit: 1
-      schedule:
-          interval: "daily"
-          time: "05:00"
-          timezone: "Europe/Oslo"
       allow:
           - dependency-type: "all"
       commit-message:
@@ -31,10 +23,6 @@ updates:
     - package-ecosystem: "npm"
       directory: "/test3/dir1/dir2"
       open-pull-requests-limit: 1
-      schedule:
-          interval: "daily"
-          time: "05:00"
-          timezone: "Europe/Oslo"
       allow:
           - dependency-type: "all"
       commit-message:
